@@ -15,6 +15,7 @@ export class Tab2Page {
   addPhotoToGallery(){
     this.photoService.addNewToGallery();
   }
+  // funcion para mostrar las fotos a media calidad
   async addPhotoLowQuality() {
     await this.photoService.addNewToGallery(50); 
   }

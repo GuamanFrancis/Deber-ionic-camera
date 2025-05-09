@@ -75,7 +75,7 @@ export class PhotoService {
     };
     reader.readAsDataURL(blob);
   });
-
+//Implementacion de la camara para que tome fotos a media calidad en un 50%
   public async addNewToGallery(quality: number = 100) {
       const capturedPhoto=await Camera.getPhoto({
         resultType:CameraResultType.Uri,
