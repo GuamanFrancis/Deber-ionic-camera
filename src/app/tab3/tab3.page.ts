@@ -6,7 +6,7 @@ import { PhotoService } from '../services/photo.service';
   styleUrls: ['tab3.page.scss'],
   standalone: false,
 })
-//
+//////////////////////////////////////////////
 export class Tab3Page implements OnInit{
 
   constructor(public photoService:PhotoService) {}
